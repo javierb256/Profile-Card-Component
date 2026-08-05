@@ -82,6 +82,39 @@ body{
     border-radius: 0.8rem
 }
 
+/* .top img {
+  width: 100%;
+} */
+ .top {
+  background-image: url("images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .top p {
+  text-align: center;
+  color: #7a7a82;
+ }
+ .top span {
+  color: black;
+  font-weight: bold;
+ }
+
+ .profile-picture {
+  border-radius: 50rem;
+}
+.profile-picture img{
+  position: relative;
+  border: 6px solid #fff;
+  border-radius: 50rem;
+  margin: 0 auto;
+ }
+
+ hr {
+  background: none;
+  border: 1px solid rgb(220, 220, 220);
+ }
+
 footer {
   position: absolute;
   bottom: 0;
