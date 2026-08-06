@@ -115,6 +115,25 @@ body{
   border: 1px solid rgb(220, 220, 220);
  }
 
+ .bottom {
+  display: flex;
+  justify-content:space-around;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+ }
+
+ .column {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .column p:first-child {
+  font-weight: bold;
+ }
+ .column p:last-child {
+  font-size: 0.7rem;
+ }
+
 footer {
   position: absolute;
   bottom: 0;
